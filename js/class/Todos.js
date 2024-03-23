@@ -62,6 +62,10 @@ class Todos {
         })
     }
 
+
+
+    
+
     #addToArray = (id,text) => {
         const task = new Task(id,text)
         this.#tasks.push(task)
